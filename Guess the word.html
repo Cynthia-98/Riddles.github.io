@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Auther:Magdaleen Van Niekerk C20300.
+-->
+<html>
+    <head>
+        <title>Guess the word</title>
+        <link rel="stylesheet" href="Guess the word.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type ="text/javascript" src="Guess the word.js" defer>
+              </script>
+        
+        <div class="container">
+            <h2>Guess the word</h2>
+        <div class="content">
+            <p class="word"></p>
+        <div class="details">
+            <p class="hint"> <span></span></p>
+            <p class="time"> <span>Time left: <b>30</b>s</span></p>
+        </div>
+            <input type="text" placeholder="Enter a word">
+        <div class="buttons"> 
+            <button onClick="window.location.reload()" >Refresh word</button>
+            <button class="check-word" onClick="window.alert(correctWord)">Check word</button>
+        </div>
+        </div>
+        </div>
+      
+    </body>
+</html>
